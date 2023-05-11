@@ -31,5 +31,7 @@ class Main {
 
       String ptwop = "peer to peer";
       System.out.println(ptwop.replace("to", "tooo")); // peer tooo peer
+      System.out.println(ptwop.contains("to")); //true
+      System.out.println(ptwop.contains("two"));  //false
     }
   }
